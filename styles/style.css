@@ -6,6 +6,8 @@
   background-color: var(--bg-color);
   display: flex;
   flex-direction: column; 
+  background-attachment: fixed
+
 }
 
 .header {
@@ -17,6 +19,7 @@
   margin: 0px;
   background-size: cover;
   margin-block-end: 40px;
+  height: 100%;
 }
 
 .header::before {
@@ -111,7 +114,7 @@
   outline: 0px;
 }
 
-.header__theme-menu-button_active{
+.header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--border_color);
 }
@@ -176,16 +179,17 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  grid-column: 2/span 2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .section__list-item {
   margin: 0px;
-}
-
-.section__list {
-  grid-column: 2/span 2;
-  margin: 0px;
-  padding: 0px;
 }
 
 .section__list-title {
@@ -279,6 +283,7 @@ main {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 180px;
   padding: 10px;
+  height: 100%;
 
 }
 
@@ -359,6 +364,10 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .container {
+    grid-column: 2/span 2;
+  }
+
   div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -412,7 +421,9 @@ main {
     margin-block-start: 0px;
     flex-direction: row;
     padding: 0px; 
+    margin-block-end: 215px;
     /* сброс браузерного отступа для списка */
+  
   }
 
   .header__theme-menu {
@@ -424,9 +435,6 @@ main {
     gap: 59px;
   }
 
-  .header__theme-menu-list {
-    margin-block-end: 215px;
-  }
 
   .header__text {
     margin-block-end: 115px;

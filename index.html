@@ -8,15 +8,11 @@
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
     <link rel="icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./fonts/fonts.css"/>
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/light.css"> 
     <link rel="stylesheet" href="./styles/dark.css"> 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
-
   </head>
   <body class="page">
     <header class="header">
@@ -107,8 +103,9 @@
      <section class="content">
       <h2 class="section__title one_more_margin">Как концентрироваться лучше, чем золотая
          рыбка (то есть дольше трёх секунд)</h2>
-         <ul class="section__list">
+        <div class="container">  
          <h3 class="card__title title__decor">5 простых (на самом деле не очень) советов</h3>
+         <ul class="section__list">
           <li class="section__list-item">
             <article class="card">
             <h4 class="section__list-title title__decor">Представьте небо и облака</h4>
@@ -123,16 +120,16 @@
             <h4 class="section__list-title title__decor">Включите музыку</h4>
             <p class="card__text">Но не любую, и не любимую. Любимая может быть связана с сильными положительными эмоциями, которые тоже очень сильно отвлекают. Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
                попробовать включить плейлист с «белым шумом» или нейромузыкой.</p>
-          </li>
-        </article>
+            </article>
+             </li>
           <li class="section__list">
             <article class="card">
             <h4 class="section__list-title title__decor">Прогуляйтесь</h4>
             <p class="card__text">Или даже пробегитесь. Лучше найти парк или лес: 
               один эксперимент <a class="card__link" href="#" target="_blank"> показал</a>, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. Но и
                простая двадцатиминутная прогулка — тоже отличный вариант.</p>
-          </li>
-        </article>
+              </article>
+              </li>
           <li class="section__list">
             <article class="card">
             <h4 class="section__list-title title__decor">Хорошо ешьте</h4>
@@ -148,28 +145,34 @@
               </article>
               </li>
         </ul>
+      </div>      
         </section>
         <section class="gallery">
           <h3 class="card__title title__decor gallery__title">А можно в картинках?</h3>
           <img 
            src="./images/sunset.png"
            class="image sunset"
+           alt="солнце"
            />
            <img 
            src="./images/ice-cream.png"
            class="image ice-cream"
+           alt="мороженое"
            />
           <img
            src="./images/tape.png"
            class="image tape"
+           alt="касета"
            />
           <img
             src="./images/books.png"
             class="image books"
+            alt="книги"
             />
           <img 
             src="./images/street.png"
             class="image street"
+            alt="улица"
             />
         </section>
     </main>

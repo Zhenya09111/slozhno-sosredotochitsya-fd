@@ -18,13 +18,13 @@
   --footer_shadow: #ff8dcb;
   --hover_button_border-color: rgb(50 49 45 / 0.4);
   --header_record: none;
-  --link_shadow: #ff8dcb
+  --link_shadow: #ff8dcb;
 }
 
 
 
 @media (prefers-color-scheme: light) {
-  :root{
+  :root { 
   --theme_bg: url(../images/cover-image-light.png);
   --border_color: #353430;
   --button_color_text: #353430;
@@ -38,6 +38,7 @@
   --footer_shadow: #ff8dcb;
   --hover_button_border-color: rgb(50 49 45 / 0.4);
   --header_record: none;
-  --link_shadow: #ff8dcb
-  }
+  --link_shadow: #ff8dcb;
+  
+ }
 }
