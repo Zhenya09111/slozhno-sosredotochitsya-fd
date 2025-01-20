@@ -2,3 +2,25 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --theme_bg: url(../images/cover-image-dark.png);
+  --border_color: #ff0070;
+  --button_color_text: #ff0070;
+  --title_color: #db00ff;
+  --title_shadow: #ff0070;
+  --title_decor_bg-color:#ff0070;
+  --title_decor_text-color: #000028;
+  --bg-color: #000028;
+  --section_title_color-text: #ff0070;
+  --card_text-color: #f1b2ce;
+  --footer_shadow: #ff0070;
+  --hover_button_border-color: rgb(255 0 112 / 0.4);
+  --link_shadow: #ff0070;
+  --hover_color: #353430;
+}
+
+
+
+
+
