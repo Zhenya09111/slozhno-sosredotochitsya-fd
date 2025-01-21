@@ -13,12 +13,13 @@
   --title_decor_bg-color: #FF8DCB;
   --title_decor_text-color: #353430;
   --bg-color: #fff1f7;
-  --section_title_color-text: #343530;
-  --card_text-color: #343530;
+  --section_title_color-text: #353430;
+  --card_text-color: #353430;
   --footer_shadow: #ff8dcb;
   --hover_button_border-color: rgb(50 49 45 / 0.4);
   --header_record: none;
   --link_shadow: #ff8dcb;
+  --card_link_focus: #353430;
 }
 
 
@@ -34,8 +35,8 @@
   --title_decor_bg-color: #FF8DCB;
   --title_decor_text-color: #353430;
   --bg-color: #fff1f7;
-  --section_title_color-text: #343530;
-  --card_text-color: #343530;
+  --section_title_color-text: #353430;
+  --card_text-color: #353430;
   --footer_shadow: #ff8dcb;
   --hover_button_border-color: rgb(50 49 45 / 0.4);
   --header_record: none;
